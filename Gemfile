@@ -1,5 +1,5 @@
-# source 'https://rubygems.org'
-source "https://gems.ruby-china.com"
+source 'https://rubygems.org'
+# source "https://gems.ruby-china.com"
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
