@@ -123,7 +123,49 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"></ol>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">WWW2023</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="10.1145/3543507.3583482" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Differentiable Optimized Product Quantization and Beyond</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Zepu Lu, <a href="http://staff.ustc.edu.cn/~liandefu/" rel="external nofollow noopener" target="_blank">Defu Lian</a>, <em>Jin Zhang</em>, Zaixi Zhang, Chao Feng, Hao Wang, and <a href="http://staff.ustc.edu.cn/~cheneh/" rel="external nofollow noopener" target="_blank">Enhong Chen</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the ACM Web Conference 2023</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3543507.3583482"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3543507.3583482" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Vector quantization techniques, such as Product Quantization (PQ), play a vital role in approximate nearest neighbor search (ANNs) and maximum inner product search (MIPS) owing to their remarkable search and storage efficiency. However, the indexes in vector quantization cannot be trained together with the inference models since data indexing is not differentiable. To this end, differentiable vector quantization approaches, such as DiffPQ and DeepPQ, have been recently proposed, but existing methods have two drawbacks. First, they do not impose any constraints on codebooks, such that the resultant codebooks lack diversity, leading to limited retrieval performance. Second, since data indexing resorts to operator, differentiability is usually achieved by either relaxation or Straight-Through Estimation (STE), which leads to biased gradient and slow convergence. To address these problems, we propose a Differentiable Optimized Product Quantization method (DOPQ) and beyond in this paper. Particularly, each data is projected into multiple orthogonal spaces, to generate multiple views of data. Thus, each codebook is learned with one view of data, guaranteeing the diversity of codebooks. Moreover, instead of simple differentiable relaxation, DOPQ optimizes the loss based on direct loss minimization, significantly reducing the gradient bias problem. Finally, DOPQ is evaluated with seven datasets of both recommendation and image search tasks. Extensive experimental results show that DOPQ outperforms state-of-the-art baselines by a large margin.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
